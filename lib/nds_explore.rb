@@ -10,7 +10,7 @@ end
 def print_first_directors_movie_titles
   directors_database[0][:movies].each do| movie |
   #[0][:movies][0]
-  pp movie
+  pp movie[:title]
   pp "hello"
 end
 end
