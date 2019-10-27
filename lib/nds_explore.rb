@@ -10,6 +10,6 @@ end
 def print_first_directors_movie_titles
   directors_database[0].each do| movie |
   #[0][:movies][0]
-  pp movie.cat "hello"
+  pp movie.concat "hello"
 end
 end
